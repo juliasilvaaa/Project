@@ -1,0 +1,37 @@
+.live-status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.live-status.on {
+    background-color: #E41414;
+    color: white;
+}
+
+.live-status.off {
+    background-color: lightgray;
+    color: #333;
+}
+
+.live-status.small {
+    width: 300px;
+    height: 80px;
+    font-size: 20px;
+}
+
+.live-status.medium {
+   width: 300px;
+    height: 80px;
+    font-size: 20px;
+}
+
+.live-status.large {
+    width: 300px;
+    height: 80px;
+    font-size: 20px;
+}

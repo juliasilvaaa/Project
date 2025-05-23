@@ -1,0 +1,20 @@
+.button-inscription {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 20px;
+}
+
+.button-inscription.small {
+    width: 180px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.button-inscription.medium {
+    width: 260px;
+    height: 60px;
+    font-size: 30px;
+}
+

@@ -1,0 +1,20 @@
+.card-info{
+    display: flex;
+    background-color: aqua;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #B2B3CD;
+    
+}
+
+.image{
+    width: 460px;
+    height: 620x;
+    border-radius: 20px;
+}
+
+.container-texts{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,16 @@
+.inscription-card {
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 320px;
+}
+
+.inscription-image{
+    width: 100%;
+}
+
+.card-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
