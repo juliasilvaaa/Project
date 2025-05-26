@@ -23,9 +23,7 @@ export const LiveOff: Story = {
     title: 'AO VIVO',
     color: '#ffffff',
     liveOn: false,
-    size: 'small'
-   
-    
+    size: "medium"
   },
 };
 

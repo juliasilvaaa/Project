@@ -1,6 +1,7 @@
 .container-profile{
     display: flex;
     align-items: center;
+    flex-direction: column;
 }
 
 
@@ -11,16 +12,20 @@
 }
 
 .image-profile.small{
-    width: 100px;
-    height: 100px;
+    width: 6em;
+    height: 6em;
 }
 
 .image-profile.medium{
-    width: 200px;
-    height: 200px;
+    width: 12.5em;
+    height: 12.5em;
 }
 
 .image-profile.large{
-    width: 300px;
-    height: 300px;
+    width: 18.5em;
+    height: 18.5em;
+}
+
+.name-host{
+    font-size: 1.2em;
 }

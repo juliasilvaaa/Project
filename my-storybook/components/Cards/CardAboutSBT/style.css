@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 .card-info{
     display: flex;
     background-color: aqua;
@@ -17,4 +19,14 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+}
+
+.title{
+    font-size: 40px;
+}
+
+.description{
+    font-size: 20px;
 }

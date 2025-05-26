@@ -1,0 +1,20 @@
+.container-host{
+    display: flex;
+}
+
+.profile-host{
+    width: 460px;
+    height: 620px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.container-text{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.name-host{
+    text-align: center;
+}

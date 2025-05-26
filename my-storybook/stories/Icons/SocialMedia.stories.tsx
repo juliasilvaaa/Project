@@ -25,7 +25,7 @@ export const MediaFacebook: Story = {
         title: 'FaceBook',
         link: 'k',
         image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/960px-Facebook_logo_%28square%29.png',
-        size: "small"
+        size: "large"
     }
 }
 

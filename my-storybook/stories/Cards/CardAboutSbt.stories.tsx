@@ -3,7 +3,7 @@ import { CardAboutSbt } from '../../components/Cards/CardAboutSBT';
 
 
 const meta: Meta<typeof CardAboutSbt> = {
-    title: 'Components/Cards',
+    title: 'Components/Cards/AboutSbt',
     component: CardAboutSbt,
     argTypes: {
         title: { control: 'text' },

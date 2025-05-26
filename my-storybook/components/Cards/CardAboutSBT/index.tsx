@@ -7,8 +7,8 @@ export function CardAboutSbt({title, image, description}: ICardAboutSbt){
             <img className="image" src={image} alt="" />
 
             <div className="container-texts">
-              <h1>{title}</h1>
-            <p>{description}</p>  
+              <h1 className="title">{title}</h1>
+            <p className="description">{description}</p>  
             </div>
             
         </div>
