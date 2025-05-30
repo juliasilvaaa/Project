@@ -3,7 +3,6 @@
 .container-line {
     display: flex;
     gap: 20px;
-    align-items: center;
 }
 
 .image-timeline {
@@ -11,20 +10,19 @@
     height: 200px;
     border-radius: 100%;
     object-fit: cover;
-    flex-shrink: 0;
 }
 
 .container-info {
     display: flex;
     flex-direction: column;
+    gap: 9px;
 }
 
 .container-title {
     gap: 10px;
     display: flex;
+    flex-direction: row;
     font-family: 'Poppins', sans-serif;
-    white-space: nowrap;
-    overflow: hidden;
 }
 
 .description {

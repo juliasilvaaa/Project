@@ -1,0 +1,40 @@
+.image-cover{
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.container-sport{
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40%;
+  background: rgba(0, 0, 0, 0.6);
+  transform: translateY(100%);
+  transition: transform 0.5s ease-in-out;
+  display: initial;
+  justify-content: center;
+}
+
+.overlay h1 {
+  color: white;
+  padding: 16px;
+  margin: 0;
+  font-size: 1.2rem;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+}
+
+
+.container-sport:hover .overlay {
+  transform: translateY(0);
+  pointer-events: auto;
+  border-radius: 10px;
+}

@@ -1,5 +1,6 @@
 .container-info {
-    display: flex;
+ display: flex;
+ flex-direction: row;
 }
 
 .image-cover {

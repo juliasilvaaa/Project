@@ -4,4 +4,5 @@ export interface INoticie{
     resume: string
     image: string
     description: string
+    cardSize: 'small' | 'large'
 }

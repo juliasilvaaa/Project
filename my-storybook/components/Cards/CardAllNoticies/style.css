@@ -1,4 +1,6 @@
-.container-noticie {
+
+/* Estilizações Card menor */
+.card-small {
     display: flex;
     background-color: whitesmoke;
     width: 1320px;
@@ -7,31 +9,64 @@
 
 }
 
-.container-text {
-    display: flex;
-    padding: 10px;
-    flex-direction: column;
-}
-
-.text-categorie {
-    font-size: 16px;
-    font-family: 'Poppins', sans-serif;
-
-}
-
-.text-title {
-    font-size: 32px;
-    margin: 0;
-}
-
-.text-resume{
-    font-size: 24px;
-}
-
-
-.image {
+.card-small .image {
     width: 220px;
     height: 100%;
     border-radius: 20px;
     object-fit: cover;
 }
+
+.card-small .container-text {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-small .text-categorie .text-resume {
+    font-size: 16px;
+}
+
+.card-small .text-title {
+    margin: 0;
+    font-size: 24px;
+}
+
+
+/* Estilizações Card Large */
+.card-large {
+    display: flex;
+    flex-direction: column;
+    background-color:  whitesmoke;
+    width: 600px;
+    height: 550px;
+    border-radius: 20px;
+
+}
+.card-large .image {
+  height: 320px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-large .container-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-large .text-categorie{
+    margin: 0;
+    font-size: 16px;
+}
+
+.card-large .text-title{ 
+    font-size: 24px;
+}
+
+.card-large .text-resume{
+    margin: 0;
+    font-size: 18px;
+    text-wrap: wrap;
+}
+
+

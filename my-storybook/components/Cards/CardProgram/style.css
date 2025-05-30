@@ -1,0 +1,14 @@
+.image-cover{
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+/* Quando o mouse esta em cima do elemento */
+.image-cover:hover{
+    cursor: pointer;
+    /* Aumentando o tamanho do elemento sem alterar seu layout original 
+    // x = 1 (normal) x > 1 (aumenta - zoom in) x < 1 (diminui - zoom out) */
+    transform: scale(1.1);
+    /* Velocidade da transição do transform */
+    transition: transform 0.3s ease;
+}

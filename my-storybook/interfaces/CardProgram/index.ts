@@ -3,4 +3,7 @@ export interface IProgram{
     title: string
     image: string
     about: string
+    imageWidthSize?: number;
+    imageHeightSize?: number;
+    
 }

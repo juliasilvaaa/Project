@@ -1,0 +1,71 @@
+.cardSmall{
+    display: flex;
+    background-color: whitesmoke;
+    width: 1230px;
+    height: 120px;
+    border-radius: 20px;
+    gap: 20px;
+}
+
+.cardSmall .image{
+    width: 190px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.cardSmall .containerText{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardSmall .textHour{
+    margin: 0;
+    font-size: 20px;
+    color: #8B8B8B;
+    font-weight: 100;    
+}
+
+.cardSmall .textTitle{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* Estilizações Card Large */
+
+.cardLarge{
+    width: 470px;
+    height: 410px;
+    background-color: blue;
+    border-radius: 20px;
+}
+
+.cardLarge .image{
+    width: 100%;
+    height: 270px;
+    border-radius: 20px;
+    object-fit: cover;
+
+}
+
+.cardLarge .containerText{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 24px;
+    border: 2px solid palevioletred;
+}
+
+.cardLarge .textHour{
+    margin: 0;
+    font-size: 24px;
+}
+.cardLarge .textTitle{
+    margin: 0;
+    font-size: 24px;
+}
+
