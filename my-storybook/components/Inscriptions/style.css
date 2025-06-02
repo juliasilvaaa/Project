@@ -1,16 +1,25 @@
 .inscription-card {
-    justify-content: center;
-    align-items: center;
+    display: flex;
     width: 240px;
+    position: relative;
     height: 320px;
 }
 
-.inscription-image{
+.inscription-card img{
     width: 100%;
+    border-radius: 20px;
+
 }
 
 .card-button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  position: absolute; 
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10px;
+}
+
+.card-button button{
+  color: white;
+  border: none;
+  cursor: pointer;
 }

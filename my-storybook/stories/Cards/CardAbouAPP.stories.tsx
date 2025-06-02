@@ -1,12 +1,13 @@
 import { Meta, StoryObj } from '@storybook/react';
-import { CardAboutAPP } from '../../components/Cards/CardAboutApp'; 
+import { CardAboutAPP } from '../../components/Cards/CardAboutApp';
 
 
 const meta: Meta<typeof CardAboutAPP> = {
+    tags: ['autodocs'],
     title: 'Components/Cards/AboutApp',
     component: CardAboutAPP,
     argTypes: {
-        categorie: {control: 'text'},
+        categorie: { control: 'text' },
         title: { control: 'text' },
         image: { control: 'text' },
         description: { control: 'text' },
@@ -21,6 +22,12 @@ export const CardAboutApp: Story = {
         categorie: 'Aplicativo',
         title: '+SBT',
         image: 'https://play-lh.googleusercontent.com/_onC7ezY_pGDRgGYewaM8GodJx5fFo8eYBbQDo7i-znmwM8xCJMH-kPpDhnRk6kc9Q',
-        description: 'O +SBT é o streaming gratuito com conteúdo sob demanda, canais ao vivo e o SBT em tempo real! Assista novelas, desenhos, programas series, filmes, documentários, produções originais e muito +.'
+        description: 'O +SBT é o streaming gratuito com conteúdo sob demanda, canais ao vivo e o SBT em tempo real! Assista novelas, desenhos, programas series, filmes, documentários, produções originais e muito +.',
+        button: {
+    text: 'Instalar',
+    color: '#ffffff',
+    backgroundColor: '#5a8933',
+    link: 'https://mais.sbt.com.br/'
+  }
     }
 }

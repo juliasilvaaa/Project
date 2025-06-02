@@ -2,7 +2,7 @@ import { Meta, StoryObj } from '@storybook/react';
 import { SectionCategories } from '../../components/Navigation/SectionCategories';
 
 const meta: Meta<typeof SectionCategories> = {
-  title: 'Components/Navigation',
+  title: 'Components/Navigation/SectionCategories',
   component: SectionCategories,
   argTypes: {
     title: { control: 'text' },

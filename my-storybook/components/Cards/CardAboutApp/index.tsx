@@ -1,7 +1,9 @@
 import { IApp } from "../../../interfaces/CardAbouAPP";
+import { Button } from "../../Buttons/ButtonSeeAndInstall";
 import './style.css'
 
-export function CardAboutAPP({ image, title, categorie, description }: IApp) {
+/** Responsável por exibir as informações do aplicativo mais sbt */
+export function CardAboutAPP({ image, title, categorie, description, button }: IApp) {
     return (
         <div className="container">
             <img className="image" src={image} alt="Image Logo App" />
@@ -12,9 +14,13 @@ export function CardAboutAPP({ image, title, categorie, description }: IApp) {
                 <h1 className="about">Sobre</h1>
                 <hr className="line" />
                 <p className="description">{description}</p>
+
+                <div className="container-button">
+                    <Button {...button} />
+
+                </div>
+
             </div>
-
-
 
 
         </div>

@@ -3,7 +3,7 @@ import { HeaderSbt } from '../../components/Header';
 
 
 const meta: Meta<typeof HeaderSbt> = {
-    title: 'Components/HeaderSbt',
+    title: 'Components/Header/HeaderSbt',
     component: HeaderSbt,
     argTypes: {
         image: {control: 'text'},

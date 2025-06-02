@@ -1,7 +1,7 @@
 import { Meta, StoryObj } from '@storybook/react';
 import { ButtonInscription } from '../../components/Buttons/ButtonInscription';
 const meta: Meta<typeof ButtonInscription> = {
-  title: 'Components/Buttons',
+  title: 'Components/Buttons/Inscriptions',
   component: ButtonInscription,
   argTypes: {
     text: { control: 'text' },

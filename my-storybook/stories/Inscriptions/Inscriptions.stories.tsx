@@ -2,7 +2,7 @@ import { Meta, StoryObj } from '@storybook/react';
 import { Inscriptions } from '../../components/Inscriptions';
 
 const meta: Meta<typeof Inscriptions> = {
-  title: 'Components/Inscriptions',
+  title: 'Components/Buttons/Inscriptions',
   component: Inscriptions,
   argTypes: {
     title: { control: 'text' },
@@ -22,5 +22,11 @@ export const InscriptionsProgram: Story = {
     image: 'https://static.sbt.com.br/programas/logos/vertical/9.jpg',
     description: 'Participe do programa mais tradicional da televisão brasileira!',
     qntd: 10,
-  },
+    button:  {
+    text: "Participar",
+    color: '#ffffff',
+    backgroundColor: '#FF8C12',
+    size: 'small'
+  }
+  }
 };

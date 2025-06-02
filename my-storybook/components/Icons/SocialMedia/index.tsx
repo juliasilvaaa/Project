@@ -1,7 +1,7 @@
 import { ISocialMedia } from "../../../interfaces/SocialMedia";
 import './style.css'
 
-export function SocialMedia({ image, title, size = 'medium' }: ISocialMedia) {
+export function SocialMedia({ image, title, size }: ISocialMedia) {
 
     return (
         <div id="container">

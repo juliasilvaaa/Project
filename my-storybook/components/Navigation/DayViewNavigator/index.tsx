@@ -40,9 +40,9 @@ export function DayViewNavigator({ inicialdate, onChange }: IDayViewNavigator) {
     return (
         <div className="container-days">
 
-            <div className="dayview-wrapper">
+            <div className="container">
                 <button onClick={goToPreviousDay} className="nav-button" aria-label="Dia anterior">
-                  <img className="img-button" src="../../../src/img/left.png" alt="" />
+                    <img className="img-button" src="../../../src/img/left.png" alt="" />
 
                 </button>
 
@@ -51,9 +51,17 @@ export function DayViewNavigator({ inicialdate, onChange }: IDayViewNavigator) {
                 <button onClick={goToNextDay} className="nav-button" aria-label="Próximo dia">
                     <img className="img-button" src="../../../src/img/rigth.png" alt="" />
                 </button>
+
+
             </div>
 
+
             <hr className="line" />
+
         </div>
+
+
+
+
     );
 }
